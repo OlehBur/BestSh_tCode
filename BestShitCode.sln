@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35209.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestShitCode", "BestShitCode\BestShitCode.csproj", "{A3ACB74C-8692-46C7-BA7C-B69737C36E13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3ACB74C-8692-46C7-BA7C-B69737C36E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3ACB74C-8692-46C7-BA7C-B69737C36E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3ACB74C-8692-46C7-BA7C-B69737C36E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3ACB74C-8692-46C7-BA7C-B69737C36E13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B909DD92-F478-48A2-8AE3-36F1749A6B5F}
+	EndGlobalSection
+EndGlobal
