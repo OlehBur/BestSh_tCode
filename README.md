@@ -8,7 +8,7 @@
   -  choose type Console App (C#);
   -  specify an arbitrary location and name of the project;
   -  select Framework .Net 8.0 and disable the checkbox to "Do not use top-level statements";
-  -  after you finish building your project, copy the code from this repository's .cpp file and paste it into your project's executable .cpp file;
+  -  after you finish building your project, copy the code from this repository's .cs file and paste it into your project's executable .cs file;
   -  launch the project by clicking on the green launch arrow at the top.
 
   To run this application, download and unzip the files from the link below, then run the .exe file
