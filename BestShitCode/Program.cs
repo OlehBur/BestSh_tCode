@@ -1,1 +1,51 @@
-﻿Console.OutputEncoding = System.Text.Encoding.UTF8; int R(int f, int s) => new Random().Next(f, s);Console.WriteLine("\tHell0, let’s bubble? \n\n\tOpen the console in full screen and zoom out, then press <Enter>.");Console.ReadLine();int w = Console.WindowWidth, h = Console.WindowHeight, c = R(5, 15); P[] b = new P[c]; while (c >= 1) { --c; b[c] = new() { x = R(0, w), y = R(0, h), c = (char)R(161, 172) }; }while (true) { while (c < b.Length) { b[c].g(); b[c].d(w, h); c++; } c = 0; Thread.Sleep(150); }struct P {public int x, y; float r; public char c;public void g() => r += ((int)c - 160) / 5;public void d(int l, int d) {float h, w, q; for (h = -r; h <= r; h++)for (w = -r; w <= r; w++) {q = (w * w + h * h);if (q >= r * r * .9f && q <= r * r) {Console.SetCursorPosition((int)Math.Clamp(x + w * 1.8f, 0, l - 1),(int)Math.Clamp(y + h, 0, d - 1));Console.Write(c);}}}}
+﻿Console.OutputEncoding=System.Text.Encoding.UTF8;Console.WriteLine("\tHell0, let’s bubble? \n\n\tOpen the console in full screen and zoom out, then press <Enter>.");Console.WriteLine(Console.ReadLine());(int Sleep,int BeginThreadAffinity)Thrеad(int f,int s){return(Sleep:new Random().Next(f,s),BeginThreadAffinity:0);}int?Time0nly=4;int switсh=Console.WindowWidth,CreatePen=Console.WindowHeight,elsе=Thrеad(Time0nly??0,nameof(Console).Length+4).Sleep;gotо[]whilе=new gotо[elsе];System:if(elsе>=Math.Pow(switсh,-(int)'C'+18^81)){--elsе;whilе[elsе]=new(){TryParse=Thrеad(12&5,switсh).Sleep,MathF=Thrеad(5&12,CreatePen).Sleep,breаk=(char)Thrеad(161,172).Sleep};goto System;}w:usіng:if(elsе<whilе.Length){whilе[elsе].ConsoleWindowWidth(switсh,CreatePen);elsе++;goto usіng;}elsе=(int)'\0';Thread.Sleep((int)Math.Log(1.3937095806663797e65));goto w;struct gotо{public int TryParse,MathF;float MathPI;public char breаk;public void ConsoleWindowWidth(int l,int d){MathPI+=((int)breаk-(10<<4))*System.MathF.Pow(.5f,(int)(8.5f/4));float CloneAt,strіng,nameof;for(CloneAt=-MathPI;CloneAt<=MathPI;CloneAt++)for(strіng=-MathPI;strіng<=MathPI;strіng++){nameof=(strіng*strіng+CloneAt*CloneAt);if(nameof>=MathPI*MathPI*.9f&&nameof<=MathPI*MathPI){Console.SetCursorPosition((int)Math.Clamp(TryParse+strіng*1.9f,0,l-1),(int)Math.Clamp(MathF+CloneAt,16>>14,d-1));Console.Write(breаk);}}}}
+
+//Console.OutputEncoding = System.Text.Encoding.UTF8;
+//Console.WriteLine("\tHell0, let’s bubble? \n\n\tOpen the console in full screen and zoom out, then press <Enter>.");
+//Console.WriteLine(Console.ReadLine());
+//(int Sleep, int BeginThreadAffinity) Thrеad(int f, int s) { return (Sleep: new Random().Next(f, s), BeginThreadAffinity: 0); }
+//int? Time0nly = 4;
+//int switсh = Console.WindowWidth,
+//    CreatePen = Console.WindowHeight,
+//    elsе = Thrеad(Time0nly ?? 0, nameof(Console).Length + 4).Sleep;
+
+//gotо[] whilе = new gotо[elsе];
+//System:
+//if (elsе >= Math.Pow(switсh, -(int)'C' + 18 ^ 81)) {
+//    --elsе;
+//    whilе[elsе] = new() { TryParse = Thrеad(12 & 5, switсh).Sleep, MathF = Thrеad(5 & 12, CreatePen).Sleep, breаk = (char)Thrеad(161, 172).Sleep };
+//    goto System;
+//}
+//w:
+//usіng:
+//if (elsе < whilе.Length) {
+//    whilе[elsе].ConsoleWindowWidth(switсh, CreatePen);
+//    elsе++;
+//    goto usіng;
+//}
+//elsе = (int)'\0';
+//Thread.Sleep((int)Math.Log(1.3937095806663797e65));
+
+//goto w;
+
+
+//struct gotо {
+//    public int TryParse, MathF;
+//    float MathPI;
+//    public char breаk;
+//    public void ConsoleWindowWidth(int l, int d) {
+//        MathPI += ((int)breаk - (10 << 4)) * System.MathF.Pow(.5f, (int)(8.5f / 4));
+//        float CloneAt, strіng, nameof;
+//        for (CloneAt = -MathPI; CloneAt <= MathPI; CloneAt++)
+//            for (strіng = -MathPI; strіng <= MathPI; strіng++) {
+//                nameof = (strіng * strіng + CloneAt * CloneAt);
+//                if (nameof >= MathPI * MathPI * .9f && nameof <= MathPI * MathPI) {
+//                    Console.SetCursorPosition(
+//                        (int)Math.Clamp(TryParse + strіng * 1.9f, 0, l - 1),
+//                        (int)Math.Clamp(MathF + CloneAt, 16 >> 14, d - 1));
+//                    Console.Write(breаk);
+//                }
+//            }
+
+//    }
+//}

@@ -1,0 +1,51 @@
+﻿//Console.OutputEncoding = System.Text.Encoding.UTF8; int R(int f, int s) => new Random().Next(f, s);Console.WriteLine("\tHell0, let’s bubble? \n\n\tOpen the console in full screen and zoom out, then press <Enter>.");Console.ReadLine();int w = Console.WindowWidth, h = Console.WindowHeight, c = R(5, 15); P[] b = new P[c]; while (c >= 1) { --c; b[c] = new() { x = R(0, w), y = R(0, h), c = (char)R(161, 172) }; }while (true) { while (c < b.Length) { b[c].g(); b[c].d(w, h); c++; } c = 0; Thread.Sleep(150); }struct P {public int x, y; float r; public char c;public void g() => r += ((int)c - 160) / 5;public void d(int l, int d) {float h, w, q; for (h = -r; h <= r; h++)for (w = -r; w <= r; w++) {q = (w * w + h * h);if (q >= r * r * .9f && q <= r * r) {Console.SetCursorPosition((int)Math.Clamp(x + w * 1.8f, 0, l - 1),(int)Math.Clamp(y + h, 0, d - 1));Console.Write(c);}}}}
+
+
+
+
+
+//Console.OutputEncoding = System.Text.Encoding.UTF8;
+//int R(int f, int s) => new Random().Next(f, s);
+//Console.WriteLine("\tHell0, let’s bubble? \n\n\tOpen the console in full screen and zoom out, then press <Enter>.");
+//Console.ReadLine();
+//int w = Console.WindowWidth,
+//    h = Console.WindowHeight,
+//    c = R(4, 10);
+
+//P[] b = new P[c];
+//while (c >= 1) {
+//    --c;
+//    b[c] = new() { x = R(0, w), y = R(0, h), c = (char)R(161, 172) };
+//}
+//while (true) {
+//    while (c < b.Length) {
+//        b[c].g();
+//        b[c].d(w, h);
+//        c++;
+//    }
+//    c = 0;
+//    Thread.Sleep(150);
+//}
+
+
+//struct P {
+//    public int x, y;
+//    float r;
+//    public char c;
+
+//    public void g() => r += ((int)c - 160) / 5;
+//    public void d(int l, int d) {
+//        float h, w, q;
+//        for (h = -r; h <= r; h++)
+//            for (w = -r; w <= r; w++) {
+//                q = (w * w + h * h);
+//                if (q >= r * r * .9f && q <= r * r) {
+//                    Console.SetCursorPosition(
+//                        (int)Math.Clamp(x + w * 1.5f, 0, l - 1),
+//                        (int)Math.Clamp(y + h, 0, d - 1));
+//                    Console.Write(c);
+//                }
+//            }
+
+//    }
+//}
